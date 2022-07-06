@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .user-list {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 2px 2px 2px #3a3a3a55;
+        background-color: #eeeeee;
+      }
+
+      .card img {
+        width: 100%;
+      }
+
+      .card-info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-name {
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: large;
+        color: #3a3a3a;
+      }
+
+      .card-email {
+        font-size: medium;
+        color: #3a3a3a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="user-list"></div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
